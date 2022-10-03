@@ -106,16 +106,72 @@ Last updated on `r Sys.Date()`.
 Main
 ================================================================================
 
-Lijia Yu {#title}
+Ingénieur géomaticien {#title}
 --------------------------------------------------------------------------------
 
 ### Currently searching for a PhD student position
 
-Please note that this is a *real* resume, and I'm really looking for a PhD
-student position at the moment. I made this resume because Yihui asked me
-if I'd like to test the **pagedown** package with my resume. If you are
-interested in my background and skills, please feel free to contact me.
+6 ans d'expérience dans la gestion et le traitement des données de recherche, 
+<br />je souhaite développer mon expertise dans leur valorisation​
 
+Expériences professionnelles {data-icon=suitcase}
+--------------------------------------------------------------------------------
+
+### Géomaticien - data ingénieur
+
+METIS - bureau d'étude en géomatique et télécommunication
+
+Lyon
+
+Nov. 2021 - Juin 2022
+
+::: concise
+- Développement d'une application web cartographique des [guichets d'autorisation d'urbanisme](https://www.gnau.fr) (Django, Leaflet)
+- Refonte de la base de données PostGIS de production cartographique d'avant projet fibre optique
+- Développement de plugin QGIS 3 et d'outils de traitement ou de vérification de données spatiales (Python, R)
+:::
+
+### Ingénieur d'études SIG
+
+Histoire et Sources des Mondes Antiques (HiSoMA UMR5189)
+
+Lyon
+
+Févr. 2019 - Août 2021
+
+Responsable des données spatiales du projet ERC Desert Networks - [Desert Networks project](https://desertnetworks.huma-num.fr/sites)
+
+::: concise
+- Préparation et vérification de données (géoréférencement, tables attributaires, topologie), analyse de données de réseaux de transport antiques
+- Alimentation des données du site internet, du Geoserver (admin) et de la base de données PostGIS (admin) 
+- Rédaction de datapaper (avec métadonnées ISO 19139) et publication de cartes thématiques
+- Production d'outils SIG (ArcGIS, QGIS, Python 3, R) et rédaction d'articles scientifiques, blog et documentations
+:::
+
+### Ingénieur d'études en hydrologie et environnement
+
+Laboratoire Géohydrosystèmes Continentaux (GeHCO), Université de Tours
+
+Tours
+
+Janv. 2015 - Janv. 2018
+
+Responsable technique de l'Observatoire du bassin versant Louroux sur l'érosion des sols agricoles
+
+::: concise
+- Mise en place des chaînes de traitement et suivi qualité des données de l'Observatoire (site Zone Atelier Loire)
+- Analyses des données spatiales du territoire (R, ArcGIS, QGIS) et rédaction des livrables techniques
+:::
+
+### Ingénieur d'études en hydromorphologie
+
+INRAE (anc. IRSTEA), équipe Hydroécologie fluviale (HEF)
+
+Antony
+
+Oct. 2013 - oct. 2014
+
+Modélisation spatiale et temporelle de plans d'eau pour l'aide à la décision de renaturation de cours d'eau
 
 Education {data-icon=graduation-cap data-concise=true}
 --------------------------------------------------------------------------------
@@ -141,74 +197,6 @@ Beijing, China
 Thesis: A multi-omics study for intra-individual divergence of the distributions between mRNA isoforms in mammals
 
 
-Research Experience {data-icon=laptop}
---------------------------------------------------------------------------------
-
-### Graduate Research Assistant
-
-Beijing Institute of Genomics, Chinese Academy of Sciences
-
-Beijing, China
-
-2011 - 2014
-
-- Performed computational biology research towards understanding regulation of alternative splicing in human and mouse transcriptome.
-- Found EGFR pathway related mutations, aimed to understand the impacts of cancer mutations on EGFR signaling pathway.
-
-### Bioinformatican
-
-My Health Gene Technology Co., Ltd.
-
-Beijing, China
-
-2015 - 2016
-
-- Investigated how cancer cells spread to other parts of the body at the single cell level.
-
-### Visiting Scientist
-
-University of Alabama at Birmingham
-
-AL, USA
-
-2016 - 2018
-
-- Investigated the role of mitochondria in development of cancer.
-- Investigated the evolution of genome architecture and its role in important evolutionary events.
-- Detected thrombotic thrombocytopenic purpura related mutations in mutiple patients' blood genome.
-  
-
-Professional Experience {data-icon=suitcase}
---------------------------------------------------------------------------------
-
-### Data Scientist, intern
-
-SupStat Inc.
-
-Beijing, China
-
-2014
-
-::: concise
-- Taught R language to beginners. 
-- Wrote Shiny app demos.
-- Converted statistical tutorials from SPSS to R language.
-:::
-
-### Bioinformatician
-
-My Health Gene Technology Co., Ltd.
-
-Beijing, China
-
-2015 - 2016
-
-::: concise
-- Analyzed whole-exome sequencing data. 
-- Wrote analysis pipelines of ChIP-seq, single cell DNA-seq and single cell RNA-seq.
-- Studied tumor metastasis and wrote research reports. 
-- Also did case studies to identify the genetic defect causing rare disease.
-:::
 
 
 Teaching Experience {data-icon=chalkboard-teacher}
