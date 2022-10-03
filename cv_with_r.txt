@@ -1,0 +1,16 @@
+R
+	Pagedown
+	https://github.com/ulyngs/pagedownCV
+	https://annekelincoln.com/resume-in-r/
+	https://www.anabellelaurent.com/slides/rladies_pagedown/cvwithpagedown#7
+	https://amygill.net/post/cv-rmd/
+	https://towardsdatascience.com/create-your-resume-with-pagedown-package-in-r-123ca6310d52
+	https://github.com/mleary/resume
+	
+	datadrivencv
+	http://nickstrayer.me/datadrivencv/
+	https://github.com/nstrayer/datadrivencv
+	
+	vitae
+	https://pkg.mitchelloharawild.com/vitae/
+	https://github.com/mitchelloharawild/vitae
