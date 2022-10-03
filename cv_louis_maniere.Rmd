@@ -6,7 +6,7 @@ output:
   pagedown::html_resume:
     css:
       - css/custom_resume.css
-      - css/styles_pdf.css
+      - css/styles_html.css
       - resume  
     # set it to true for a self-contained HTML page but it'll take longer to render
     self_contained: true
@@ -29,29 +29,70 @@ source('src/helper_functions.R')
 skill_data <- read.csv('data/skill_data.csv', stringsAsFactors = F)
 ```
 
+```{css, echo=FALSE}
+.aside {
+  padding-top: 0;
+}
+
+.aside > p:first-of-type {
+  margin-top: 0;
+}
+```
 
 Aside
 ================================================================================
 
-![Louis Manière](img/Louis MANIERE-8803_rondV2.jpg){width=80%}
+![Louis Manière](img/Louis MANIERE-8803_rondV2.jpg){width=70%}
 
 
-Contact Info {#contact}
+Contact {#contact}
 --------------------------------------------------------------------------------
 
-- <i class="fa fa-envelope"></i> louismaniere@orange.fr
-- <i class="fa fa-github"></i> [github.com/LouisManiere](https://github.com/LouisManiere)
-- <i class="fa fa-phone"></i> 06.67.74.15.85
+```{r contactinfo}
+# Adjust contact info based on document type - html has link while pdf does not
+if(params$doctype == "HTML") {
+  glue::glue('
+    - <i class="fa fa-map-marked-alt"></i> Lyon, France
+    - <i class="fa fa-phone"></i> <a href="tel:+33 667741585">+33 667741585</a>
+    - <i class="fa fa-envelope"></i> louismaniere@orange.fr
+    - <i class="fa fa-github"></i> [github.com/LouisManiere](https://github.com/LouisManiere)
+    - <i class="fab fa-linkedin-in"></i> [linkedin.com/louis-manière](https://www.linkedin.com/in/louis-mani%C3%A8re-03760750/)
+  ')
+} 
+if(params$doctype == "PDF") {
+  glue::glue('
+    - <i class="fa fa-map-marked-alt"></i> Lyon, France
+    - <i class="fa fa-phone"></i> +33 667741585
+    - <i class="fa fa-envelope"></i> louismaniere<!-- breaking hyplerlink -->@orange.fr
+    - <i class="fa fa-github"></i> github.com/mleary
+    - <i class="fab fa-linkedin-in"></i> linkedin.com/mbleary
+  ')
+}
+```
 
-Skills {#skills}
+SIG {#skills}
 --------------------------------------------------------------------------------
 
-- Experienced in statistical analysis, statistical learning models, and optimization methods.
+```{r sigskills, dev.args = list(bg = 'transparent')}
+# function from helper_functions.R
+build_skill_bars(skill_data, "SIG")
+```
 
-- Full experience with next generation sequencing data analysis.
+Data science {#datascience}
+--------------------------------------------------------------------------------
 
-- Highly skilled in R, Bash, Perl, Python, LaTeX
+```{r dataskills, dev.args = list(bg = 'transparent')}
+# function from helper_functions.R
+build_skill_bars(skill_data, "Spatial data science")
+```
 
+Web {#web}
+--------------------------------------------------------------------------------
+
+```{r webskills, dev.args = list(bg = 'transparent')}
+# function from helper_functions.R
+build_skill_bars(skill_data, "Web")
+```
 
 Disclaimer {#disclaimer}
 --------------------------------------------------------------------------------
