@@ -203,4 +203,16 @@ Paris
 
 2012
 
+Research Experience {data-icon=img/benevolat_transparent.png}
+--------------------------------------------------------------------------------
 
+### Graduate Research Assistant
+
+Beijing Institute of Genomics, Chinese Academy of Sciences
+
+Beijing, China
+
+2011 - 2014
+
+- Performed computational biology research towards understanding regulation of alternative splicing in human and mouse transcriptome.
+- Found EGFR pathway related mutations, aimed to understand the impacts of cancer mutations on EGFR signaling pathway.
