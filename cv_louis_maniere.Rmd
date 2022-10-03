@@ -42,7 +42,10 @@ skill_data <- read.csv('data/skill_data.csv', stringsAsFactors = F)
 Aside
 ================================================================================
 
-![Louis Manière](img/Louis MANIERE-8803_rondV2.jpg){width=70%}
+```{r echo=FALSE, out.width='70%', fig.align='center'}
+knitr::include_graphics('img/Louis MANIERE-8803_rondV2.jpg')
+```
+
 
 
 Contact {#contact}
@@ -93,6 +96,14 @@ Web {#web}
 # function from helper_functions.R
 build_skill_bars(skill_data, "Web")
 ```
+
+Savoir être {#etre}
+--------------------------------------------------------------------------------
+
+
+-- A l'écoute des besoins et force de proposition\
+-- Aisance relationnel en équipe et à l'oral\
+-- Organisé et rigoureux
 
 Disclaimer {#disclaimer}
 --------------------------------------------------------------------------------
@@ -173,71 +184,23 @@ Oct. 2013 - oct. 2014
 
 Modélisation spatiale et temporelle de plans d'eau pour l'aide à la décision de renaturation de cours d'eau
 
-Education {data-icon=graduation-cap data-concise=true}
+Formation académique {data-icon=graduation-cap data-concise=true}
 --------------------------------------------------------------------------------
 
-### Beijing University of Chemical Technology
+### Master 2 Sciences de l'eau (anc. Cogeval'eau)
 
-B.S. in Information and Computing Sciences
+Université Lumière Lyon 2
 
-Beijing, China
+Lyon
 
-2010
+2013
 
-Thesis: Dyadic wavelet and its application in edge detection
+### Master 1 Géographie 
 
-### University of Chinese Academy of Sciences
+Université Paris 1 Panthéon-Sorbonne
 
-M.S. in Bioinformatics
+Paris
 
-Beijing, China
-
-2014
-
-Thesis: A multi-omics study for intra-individual divergence of the distributions between mRNA isoforms in mammals
+2012
 
 
-
-
-Teaching Experience {data-icon=chalkboard-teacher}
---------------------------------------------------------------------------------
-
-### Introduction to R Language for Beginners.
-
-Instructor of R and Data Mining Training Courses at SupStat Inc.
-
-Beijing, China
-
-2014
-
-### Computational Biology and Bioinformatics.
-
-Teaching assistant of GBS CB2-201 courses at UAB
-
-AL, USA
-
-2016 - 2017
-
-
-Selected Publications and Posters {data-icon=file}
---------------------------------------------------------------------------------
-
-### Genetic and epigenetic signals are found predictive to the distribution of intra-individual divergence of alternative splicing.
-
-Poster for 2013 International Conference of Genomics
-
-Qingdao, China
-
-2014
-
-**Yu L**, Chen B, Zhang Z.
-
-### ESCRT-0 complex modulates Rbf mutant cell survival by regulating Rhomboid endosomal trafficking and EGFR signaling.
-
-J Cell Sci. 2016 May 15;129(10):2075-84.
-
-N/A
-
-2016 
-
-Sheng Z, **Yu L**, Zhang T, Pei X, Li X, Zhang Z and Du W. 
