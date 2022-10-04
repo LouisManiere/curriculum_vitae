@@ -58,12 +58,27 @@
     margin-top: 5px;
 }
 
+[data-id="disclaimer"] {
+    position: absolute;
+    bottom: 0;
+    right: var(--sidebar-horizontal-padding);
+    font-size: 0.55rem;
+    font-style: italic;
+    line-height: 1.1;
+    text-align: right;
+    color: #777;
+}
+
 .aside {
   height: 100%;
   width: var(--sidebar-width) !important;
   padding-left: 0.75rem;
   padding-right: 0;
   padding-top: 0rem;
+}
+
+.aside > p:first-of-type {
+  margin-top: 0;
 }
 
 .aside .level2 {

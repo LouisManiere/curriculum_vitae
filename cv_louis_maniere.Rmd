@@ -29,12 +29,6 @@ source('src/helper_functions.R')
 skill_data <- read.csv('data/skill_data.csv', stringsAsFactors = F)
 ```
 
-```{css, echo=FALSE}
-.aside > p:first-of-type {
-  margin-top: 0;
-}
-```
-
 Aside
 ================================================================================
 
@@ -97,16 +91,13 @@ Savoir être {#etre}
 --------------------------------------------------------------------------------
 
 -- A l'écoute des besoins et force de proposition\
--- Aisance relationnel en équipe et à l'oral\
+-- Aisance relationnelle en équipe et à l'oral\
 -- Organisé et rigoureux
 
 Disclaimer {#disclaimer}
 --------------------------------------------------------------------------------
 
-This resume was made with the R package [**pagedown**](https://github.com/rstudio/pagedown).
-
-Last updated on `r Sys.Date()`.
-
+Réalisé avec le package R [**pagedown**](https://github.com/rstudio/pagedown).
 
 
 Main
