@@ -2,7 +2,14 @@
 title: "Publications"
 author: "Louis Manière"
 date: "`r Sys.Date()`"
-output: pdf_document
+output: 
+  pdf_document:
+    latex_engine: xelatex
+    includes:
+      in_header: header.tex
+mainfont: Open Sans
+urlcolor: blue
+fontsize: 10pt
 ---
 
 ```{r setup, include=FALSE}
@@ -11,75 +18,75 @@ knitr::opts_chunk$set(echo = TRUE)
 
 ### Publications scientifiques (avec comité de lecture) (8)
 
-Crépy, M., Manière, L. and Redon, B. forthcoming. Roads in the sand: Using data from modern travelers to reconstruct the ancient road networks of Egypt’s Eastern Desert. In: Kulayci, T (ed.). Archaeologies of Roads. Grand Forks: Digital Press at the University of North Dakota.
+Crépy, M., **Manière, L.** and Redon, B. forthcoming. Roads in the sand: Using data from modern travelers to reconstruct the ancient road networks of Egypt’s Eastern Desert. In: Kulayci, T (ed.). Archaeologies of Roads. Grand Forks: Digital Press at the University of North Dakota.
 
-Manière, L., Crépy, M. and Redon, B. (2021). Building a Model to Reconstruct the Hellenistic and Roman Road Networks of the Eastern Desert of Egypt, a Semi-Empirical Approach Based on Modern Travelers’ Itineraries. Journal of Computer Applications in Archaeology, 4(1), pp.20–46. DOI: [http://doi.org/10.5334/jcaa.67](http://doi.org/10.5334/jcaa.67)
+**Manière, L.**, Crépy, M. and Redon, B. (2021). Building a Model to Reconstruct the Hellenistic and Roman Road Networks of the Eastern Desert of Egypt, a Semi-Empirical Approach Based on Modern Travelers’ Itineraries. Journal of Computer Applications in Archaeology, 4(1), pp.20–46. DOI: [http://doi.org/10.5334/jcaa.67](http://doi.org/10.5334/jcaa.67)
 
-Manière, L., Crépy, M. and Redon, B. (2020). Geospatial Data from the “Building a Model to Reconstruct the Hellenistic and Roman Road Networks of the Eastern Desert of Egypt, a Semi-Empirical Approach Based on Modern Travelers’ Itineraries” Paper, Journal of Open Archaeology Data, 8: 7. DOI: [https://doi.org/10.5334/joad.71](https://doi.org/10.5334/joad.71)
+**Manière, L.**, Crépy, M. and Redon, B. (2020). Geospatial Data from the “Building a Model to Reconstruct the Hellenistic and Roman Road Networks of the Eastern Desert of Egypt, a Semi-Empirical Approach Based on Modern Travelers’ Itineraries” Paper, Journal of Open Archaeology Data, 8: 7. DOI: [https://doi.org/10.5334/joad.71](https://doi.org/10.5334/joad.71)
 
-Grangeon, T., Cerdan, O., Landemaine, V., Vandromme, R., Desprats, J., Salvador-Blanes, S., Vanhooydonck, P., Gaillot, A., Manière, L., Pene-Galland, I., Evrard, O., Foucher, A., Ledieu, L., Simonneau, A., Ouvry, J., and Ting Pak, L., (2020) Runoff observatories: From processes analysis to improved modelling, La Houille Blanche, 106:6, 7-16, DOI: [https://doi.org/10.1051/lhb/2020056](https://doi.org/10.1051/lhb/2020056)
+Grangeon, T., Cerdan, O., Landemaine, V., Vandromme, R., Desprats, J., Salvador-Blanes, S., Vanhooydonck, P., Gaillot, A., **Manière, L.**, Pene-Galland, I., Evrard, O., Foucher, A., Ledieu, L., Simonneau, A., Ouvry, J., and Ting Pak, L., (2020) Runoff observatories: From processes analysis to improved modelling, La Houille Blanche, 106:6, 7-16, DOI: [https://doi.org/10.1051/lhb/2020056](https://doi.org/10.1051/lhb/2020056)
 
-Grangeon, T., Manière, L., Foucher, A., Vandromme, R., Cerdan, O., Evrard, O., Pene-Galland, I.,  Salvador-Blanes, S. (2017). Hydro-sedimentary dynamics of a drained agricultural headwater catchment: a nested monitoring approach. Vadose Zone J. 16(12), DOI : [https://doi.org/10.2136/vzj2017.05.0113](https://doi.org/10.2136/vzj2017.05.0113)
+Grangeon, T., **Manière, L.**, Foucher, A., Vandromme, R., Cerdan, O., Evrard, O., Pene-Galland, I.,  Salvador-Blanes, S. (2017). Hydro-sedimentary dynamics of a drained agricultural headwater catchment: a nested monitoring approach. Vadose Zone J. 16(12), DOI : [https://doi.org/10.2136/vzj2017.05.0113](https://doi.org/10.2136/vzj2017.05.0113)
 
-Le Gall, M., Evrard, O., Foucher, A., Laceby, J. P., Salvador-Blanes, S., Manière, L., Lefèvre, I., Cerdan, O., Ayrault, S. (2017). Investigating the temporal dynamics of suspended sediment during flood events with 7Be and 210Pbxs measurements in a drained lowland catchment. Scientific Reports, 7(March), 42099, DOI : [https://doi.org/10.1038/srep42099](https://doi.org/10.1038/srep42099)
+Le Gall, M., Evrard, O., Foucher, A., Laceby, J. P., Salvador-Blanes, S., **Manière, L.**, Lefèvre, I., Cerdan, O., Ayrault, S. (2017). Investigating the temporal dynamics of suspended sediment during flood events with 7Be and 210Pbxs measurements in a drained lowland catchment. Scientific Reports, 7(March), 42099, DOI : [https://doi.org/10.1038/srep42099](https://doi.org/10.1038/srep42099)
 
-Le Gall, M., Evrard, O., Thil, F., Foucher, A., Laceby, J. P., Manière, L., Salvador-Blanes, S., Ayrault, S. (2016). Examining suspended sediment sources and dynamics during floods in a drained catchment using stable strontium isotopes and fallout radionuclides. Chemical Geology, DOI : [https://doi.org/10.1016/j.chemgeo.2016.12.007](https://doi.org/10.1016/j.chemgeo.2016.12.007)
+Le Gall, M., Evrard, O., Thil, F., Foucher, A., Laceby, J. P., **Manière, L.**, Salvador-Blanes, S., Ayrault, S. (2016). Examining suspended sediment sources and dynamics during floods in a drained catchment using stable strontium isotopes and fallout radionuclides. Chemical Geology, DOI : [https://doi.org/10.1016/j.chemgeo.2016.12.007](https://doi.org/10.1016/j.chemgeo.2016.12.007)
 
-Foucher, A., Le Gall, M., Salvador-Blanes, S., Evrard, O., Cerdan, O., Laceby, J. P., Vandromme, R., Lefèvre, I., Manière, L., Grangeon, T., Bakyono, J.P., Desmet, M. (2017). Accroissement de la contribution des sources d’érosion aux rivières et plans d ’ eau (1950 ‑ 2010): le cas du Louroux (Indre‑et‑Loire, France), 11–18, DOI : [https://doi.org/10.1051/lhb/2017051 ](https://doi.org/10.1051/lhb/2017051 )
+Foucher, A., Le Gall, M., Salvador-Blanes, S., Evrard, O., Cerdan, O., Laceby, J. P., Vandromme, R., Lefèvre, I., **Manière, L.**, Grangeon, T., Bakyono, J.P., Desmet, M. (2017). Accroissement de la contribution des sources d’érosion aux rivières et plans d ’ eau (1950 ‑ 2010): le cas du Louroux (Indre‑et‑Loire, France), 11–18, DOI : [https://doi.org/10.1051/lhb/2017051 ](https://doi.org/10.1051/lhb/2017051 )
 
 ### Congrès internationaux (10)
 
-Crépy, M., Manière, L. and Redon, B. forthcoming. Roads in the sand: Using data from modern travelers to reconstruct the ancient road networks of Egypt’s Eastern Desert (2019). Archaeologies of Roads, Florence Italy. Oral presentation, speaker.
+Crépy, M., **Manière, L.** and Redon, B. forthcoming. Roads in the sand: Using data from modern travelers to reconstruct the ancient road networks of Egypt’s Eastern Desert (2019). Archaeologies of Roads, Florence Italy. Oral presentation, **speaker**.
 
-Manière, L., Verreth, H. (2019). Desert Networks and Trismegistos. Combining archaeological and historical sources from the Egyptian Eastern desert in a spatial online environment. Project (KU Leuven), ERC Desert Networks. Red Sea conference IX, Networked Spaces, Lyon (France). Oral presentation, speaker.
+**Manière, L.**, Verreth, H. (2019). Desert Networks and Trismegistos. Combining archaeological and historical sources from the Egyptian Eastern desert in a spatial online environment. Project (KU Leuven), ERC Desert Networks. Red Sea conference IX, Networked Spaces, Lyon (France). Oral presentation, **speaker**.
 
-Vandromme, R., Grangeon, T., Cerdan, O., Manière, L., Salvador-Blanes, S., Foucher, A., Chapalain, M., Evrard, O.,  Le Gall, M. (2016). Overland flow and sediment transport in an agricultural lowland catchment: a focus on tile drain export. EGU General Assembly, Vienna (Austria). Oral presentation.
+Vandromme, R., Grangeon, T., Cerdan, O., **Manière, L.**, Salvador-Blanes, S., Foucher, A., Chapalain, M., Evrard, O.,  Le Gall, M. (2016). Overland flow and sediment transport in an agricultural lowland catchment: a focus on tile drain export. EGU General Assembly, Vienna (Austria). **Oral presentation**.
 
-Salvador-Blanes, S., Manière, L., Grangeon, T., Cerdan, O., Evrard, O., Foucher, A., Vandromme, R. (2017). Quantification of suspended sediment transfers in a lowland agricultural catchment. EGU General Assembly, Vienna (Austria). Poster.
+Salvador-Blanes, S., Manière, L., Grangeon, T., Cerdan, O., Evrard, O., Foucher, A., Vandromme, R. (2017). Quantification of suspended sediment transfers in a lowland agricultural catchment. EGU General Assembly, Vienna (Austria). **Poster**.
 
-Evrard, O., Le Gall, M., Foucher, A., Laceby, P., Salvador-Blanes, S., Manière, L., Lefèvre, I., Cerdan, O., Vandromme, R., Ayrault, S. (2017). Quantifying the transfer times of suspended sediment during floods with 7Be and 210Pbxs measurements in a drained lowland catchment of central France. EGU General Assembly, Vienna (Austria). Oral presentation.
+Evrard, O., Le Gall, M., Foucher, A., Laceby, P., Salvador-Blanes, S., **Manière, L.**, Lefèvre, I., Cerdan, O., Vandromme, R., Ayrault, S. (2017). Quantifying the transfer times of suspended sediment during floods with 7Be and 210Pbxs measurements in a drained lowland catchment of central France. EGU General Assembly, Vienna (Austria). **Oral presentation**.
 
-Grangeon, T., Cerdan, O., Vandromme, R, Salvador-Blanes, S., Manière, L, Foucher, A, Evrard, O., Landemaine, V. Development and validation of a runoff and erosion model for lowland drained catchments. EGU General Assembly, Vienna (Austria). Oral presentation.
+Grangeon, T., Cerdan, O., Vandromme, R, Salvador-Blanes, S., **Manière, L.**, Foucher, A, Evrard, O., Landemaine, V. Development and validation of a runoff and erosion model for lowland drained catchments. EGU General Assembly, Vienna (Austria). **Oral presentation**.
 
-Vandromme , R., Cerdan, O., Grangeon, T., Foucher, A., Manière, L., Salvador-Blanes, S., Evrard, O (2017). From soil to sediments in French river basins. 14th international conference on Sustainable Use and Management of Soil, Sediment and Water Resources, Lyon (France). Oral presentation.
+Vandromme , R., Cerdan, O., Grangeon, T., Foucher, A., **Manière, L.**, Salvador-Blanes, S., Evrard, O (2017). From soil to sediments in French river basins. 14th international conference on Sustainable Use and Management of Soil, Sediment and Water Resources, Lyon (France). **Oral presentation**.
 
-Salvador-Blanes, S., Evrard, O., Cerdan, O., Foucher, A., Le Gall, M., Vandromme, R., Grangeon, T., Manière, L., Lefèvre, I., Desmet, M. (2017). Sediment transfers in a lowland agricultural catchment. ILTER & LTER-France (Zones Ateliers Network & Critical Zone Observatories) joint conference, Nantes (France). Oral presentation.
+Salvador-Blanes, S., Evrard, O., Cerdan, O., Foucher, A., Le Gall, M., Vandromme, R., Grangeon, T., **Manière, L.**, Lefèvre, I., Desmet, M. (2017). Sediment transfers in a lowland agricultural catchment. ILTER & LTER-France (Zones Ateliers Network & Critical Zone Observatories) joint conference, Nantes (France). **Oral presentation**.
 
-Salvador-Blanes, S., Foucher, A., Le Gall, M., Vandromme, R., Grangeon, T., Manière, L., Lefèvre, I., Cerdan, O., Evrard, O. (2017). Sediment Fluxes and Processes in a Lowland Agricultural Catchment. 9th International Conference on Geomorphology, Delhi (India). Oral presentation.
+Salvador-Blanes, S., Foucher, A., Le Gall, M., Vandromme, R., Grangeon, T., **Manière, L.**, Lefèvre, I., Cerdan, O., Evrard, O. (2017). Sediment Fluxes and Processes in a Lowland Agricultural Catchment. 9th International Conference on Geomorphology, Delhi (India). **Oral presentation**.
 
-Slawson, D., Manière, L., Marchandeau, F. (2014). Analysis of Stream Channel Geometry Temporal and Spatial Evolution after Historic Dam Removal - two French case studies. EGU General Assembly, Vienna (Austria). Poster.
+Slawson, D., **Manière, L.**, Marchandeau, F. (2014). Analysis of Stream Channel Geometry Temporal and Spatial Evolution after Historic Dam Removal - two French case studies. EGU General Assembly, Vienna (Austria). **Poster**.
 
 ### Congrès nationaux (5)
 
-Foucher, A., Salvador-Blanes, S., Desmet, M., Evrard, O., Cerdan, O., Chapron, E., Simonneau, A., Laceby, J.P., Le Gall, M., Lefèvre, I., Courp, T., Mathieu, A., Manière, L. (2015). Réponse de la dynamique sédimentaire a l’anthropisation des plaines agricoles drainées durant les 60 dernières années (bassin versant du Louroux, vallée de la Loire). 15ème congrès français de sédimentologie, Chambéry (France). Oral presentation.
+Foucher, A., Salvador-Blanes, S., Desmet, M., Evrard, O., Cerdan, O., Chapron, E., Simonneau, A., Laceby, J.P., Le Gall, M., Lefèvre, I., Courp, T., Mathieu, A., **Manière, L.** (2015). Réponse de la dynamique sédimentaire a l’anthropisation des plaines agricoles drainées durant les 60 dernières années (bassin versant du Louroux, vallée de la Loire). 15ème congrès français de sédimentologie, Chambéry (France). **Oral presentation**.
 
-Manière, L., Salvador-Blanes, S., Foucher, A., Cerdan, O., Evrard, O., Mathieu, A., Desmet, M. (2015). Suivi et quantification des transferts de matière dans un bassin versant agricole de plaine drainé. 15ème congrès français de sédimentologie, Chambéry (France). Poster.
+**Manière, L.**, Salvador-Blanes, S., Foucher, A., Cerdan, O., Evrard, O., Mathieu, A., Desmet, M. (2015). Suivi et quantification des transferts de matière dans un bassin versant agricole de plaine drainé. 15ème congrès français de sédimentologie, Chambéry (France). **Poster**.
 
-Manière, L., Salvador-Blanes, S., Grangeon, T., Foucher, A., Cerdan, O., Evrard, O.,  Mathieu, A., Desmet, M. (2016). Suivi et quantification des transferts de matière dans un bassin versant agricole de plaine drainé. 13èmes Journées d’Etude des Sols. Louvain-la-Neuve (Belgium). Poster.
+**Manière, L.**, Salvador-Blanes, S., Grangeon, T., Foucher, A., Cerdan, O., Evrard, O.,  Mathieu, A., Desmet, M. (2016). Suivi et quantification des transferts de matière dans un bassin versant agricole de plaine drainé. 13èmes Journées d’Etude des Sols. Louvain-la-Neuve (Belgium). **Poster**.
 
-Grangeon, T., Vandromme, R., Manière, L., Landemaine, V., Salvador-Blanes, S., Cerdan, O. (2016). Modélisation numérique d’un bassin versant de plaine agricole. 13èmes Journées d’Etude des Sols. Louvain-la-Neuve (Belgium). Oral presentation.
+Grangeon, T., Vandromme, R., **Manière, L.**, Landemaine, V., Salvador-Blanes, S., Cerdan, O. (2016). Modélisation numérique d’un bassin versant de plaine agricole. 13èmes Journées d’Etude des Sols. Louvain-la-Neuve (Belgium). **Oral presentation**.
 
-Salvador-Blanes, S., Cerdan, O., Evrard, O., Foucher, A., Legall, M., Maniere L., Grangeon, T., Vandromme, R., Desmet, M., Ayrault, S., Lefevre, I., Mathieu, A., Chirie, G., Chapalain, M. (2016). Le bassin versant du Louroux : un site de référence pour la caractérisation et la quantification des transferts de matière solide en contexte de plaine agricole drainée. 13èmes Journées d’Etude des Sols. Louvain-la-Neuve (Belgium). Oral presentation.
+Salvador-Blanes, S., Cerdan, O., Evrard, O., Foucher, A., Legall, M., **Maniere L.**, Grangeon, T., Vandromme, R., Desmet, M., Ayrault, S., Lefevre, I., Mathieu, A., Chirie, G., Chapalain, M. (2016). Le bassin versant du Louroux : un site de référence pour la caractérisation et la quantification des transferts de matière solide en contexte de plaine agricole drainée. 13èmes Journées d’Etude des Sols. Louvain-la-Neuve (Belgium). **Oral presentation**.
 
 ### Séminaires et ateliers (3)
 
-Manière, L. (2022). Mettre en valeur ses données avec les data papers. Retour d'expérience d'une publication en archéologie. Première école d’été du consortium Huma-Num DISTAM. Publier avec des données. Paris (France). Oral presentation, speaker.
+**Manière, L.** (2022). Mettre en valeur ses données avec les data papers. Retour d'expérience d'une publication en archéologie. Première école d’été du consortium Huma-Num DISTAM. Publier avec des données. Paris (France). **Oral presentation, speaker**.
 
-Manière, L., (2021). Démarche et rédaction d’un datapaper sur les données et résultats de modélisation d’itinéraires antiques dans le désert oriental égyptien (ERC Desert Networks). Ateliers Doc' de la Maison de l’Orient et de la Méditerrannée, Lyon (France). Oral presentation, speaker.
+**Manière, L.**, (2021). Démarche et rédaction d’un datapaper sur les données et résultats de modélisation d’itinéraires antiques dans le désert oriental égyptien (ERC Desert Networks). Ateliers Doc' de la Maison de l’Orient et de la Méditerrannée, Lyon (France). **Oral presentation, speaker**.
 
-Manière, L., (2020). Datapaper en archéologie, ERC Desert Networks. Démarche d’un premier datapaper sur des données et résultats de modélisation d’itinéraires antiques dans le désert oriental égyptien. Journée sciences ouvertes du CNRS, Paris (France). Oral presentation, speaker.
+**Manière, L.**, (2020). Datapaper en archéologie, ERC Desert Networks. Démarche d’un premier datapaper sur des données et résultats de modélisation d’itinéraires antiques dans le désert oriental égyptien. Journée sciences ouvertes du CNRS, Paris (France). **Oral presentation, speaker**.
 
 ### Formations (3)
 
-SIGR, Sciences de l’Information Géographique Reproductibles (2021). Ecole d'été CNRS, 5 jours.
+**SIGR, Sciences de l’Information Géographique Reproductibles** (2021). Ecole d'été CNRS, 5 jours.
 
-PostGIS (2020). Makina Corpus (formation certifiante), 3 jours.
+**PostGIS** (2020). Makina Corpus (formation certifiante), 3 jours.
 
-Python pour l’analyse géospatiale (2019), Makina Corpus (formation certifiante), 3 jours.
+**Python pour l’analyse géospatiale** (2019), Makina Corpus (formation certifiante), 3 jours.
 
 ### Enseignement (1)
 
-Hydrologie, métrologie et analyse de données (2016 – 2018). Master 1 Hydrosystèmes et Bassins Versants, Université de Tours.
+**Hydrologie, métrologie et analyse de données** (2016 – 2018). Master 1 Hydrosystèmes et Bassins Versants, Université de Tours.
 
 
 
