@@ -16,6 +16,18 @@ fontsize: 10pt
 knitr::opts_chunk$set(echo = TRUE)
 ```
 
+### Formations (3)
+
+**SIGR, Sciences de l’Information Géographique Reproductibles** (2021). Ecole d'été CNRS, 5 jours.
+
+**PostGIS** (2020). Makina Corpus (formation certifiante), 3 jours.
+
+**Python pour l’analyse géospatiale** (2019), Makina Corpus (formation certifiante), 3 jours.
+
+### Enseignement (1)
+
+**Hydrologie, métrologie et analyse de données** (2016 – 2018). Master 1 Hydrosystèmes et Bassins Versants, Université de Tours.
+
 ### Publications scientifiques (avec comité de lecture) (8)
 
 Crépy, M., **Manière, L.** and Redon, B. forthcoming. Roads in the sand: Using data from modern travelers to reconstruct the ancient road networks of Egypt’s Eastern Desert. In: Kulayci, T (ed.). Archaeologies of Roads. Grand Forks: Digital Press at the University of North Dakota.
@@ -75,18 +87,3 @@ Salvador-Blanes, S., Cerdan, O., Evrard, O., Foucher, A., Legall, M., **Maniere 
 **Manière, L.**, (2021). Démarche et rédaction d’un datapaper sur les données et résultats de modélisation d’itinéraires antiques dans le désert oriental égyptien (ERC Desert Networks). Ateliers Doc' de la Maison de l’Orient et de la Méditerrannée, Lyon (France). **Oral presentation, speaker**.
 
 **Manière, L.**, (2020). Datapaper en archéologie, ERC Desert Networks. Démarche d’un premier datapaper sur des données et résultats de modélisation d’itinéraires antiques dans le désert oriental égyptien. Journée sciences ouvertes du CNRS, Paris (France). **Oral presentation, speaker**.
-
-### Formations (3)
-
-**SIGR, Sciences de l’Information Géographique Reproductibles** (2021). Ecole d'été CNRS, 5 jours.
-
-**PostGIS** (2020). Makina Corpus (formation certifiante), 3 jours.
-
-**Python pour l’analyse géospatiale** (2019), Makina Corpus (formation certifiante), 3 jours.
-
-### Enseignement (1)
-
-**Hydrologie, métrologie et analyse de données** (2016 – 2018). Master 1 Hydrosystèmes et Bassins Versants, Université de Tours.
-
-
-
