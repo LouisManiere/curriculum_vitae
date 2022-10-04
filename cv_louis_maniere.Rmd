@@ -30,10 +30,6 @@ skill_data <- read.csv('data/skill_data.csv', stringsAsFactors = F)
 ```
 
 ```{css, echo=FALSE}
-.aside {
-  padding-top: 0;
-}
-
 .aside > p:first-of-type {
   margin-top: 0;
 }
@@ -43,7 +39,7 @@ Aside
 ================================================================================
 
 ```{r echo=FALSE, out.width='70%', fig.align='center'}
-knitr::include_graphics('img/Louis MANIERE-8803_rondV2.jpg')
+knitr::include_graphics('img/Louis MANIERE-8803_rondV2_transparent.png')
 ```
 
 
@@ -100,7 +96,6 @@ build_skill_bars(skill_data, "Web")
 Savoir être {#etre}
 --------------------------------------------------------------------------------
 
-
 -- A l'écoute des besoins et force de proposition\
 -- Aisance relationnel en équipe et à l'oral\
 -- Organisé et rigoureux
@@ -117,10 +112,10 @@ Last updated on `r Sys.Date()`.
 Main
 ================================================================================
 
-Ingénieur géomaticien {#title}
+Louis Manière {#title}
 --------------------------------------------------------------------------------
 
-### Currently searching for a PhD student position
+### Ingénieur géomaticien
 
 6 ans d'expérience dans la gestion et le traitement des données de recherche, 
 <br />je souhaite développer mon expertise dans leur valorisation​
@@ -144,13 +139,15 @@ Nov. 2021 - Juin 2022
 
 ### Ingénieur d'études SIG
 
-Histoire et Sources des Mondes Antiques (HiSoMA UMR5189)
+CNRS - Histoire et Sources des Mondes Antiques (HiSoMA UMR5189)
 
 Lyon
 
 Févr. 2019 - Août 2021
 
+<p class="subtitle">
 Responsable des données spatiales du projet ERC Desert Networks - [Desert Networks project](https://desertnetworks.huma-num.fr/sites)
+</p>
 
 ::: concise
 - Préparation et vérification de données (géoréférencement, tables attributaires, topologie), analyse de données de réseaux de transport antiques
@@ -161,13 +158,15 @@ Responsable des données spatiales du projet ERC Desert Networks - [Desert Netwo
 
 ### Ingénieur d'études en hydrologie et environnement
 
-Laboratoire Géohydrosystèmes Continentaux (GeHCO), Université de Tours
+Université de Tours - Laboratoire Géohydrosystèmes Continentaux (GeHCO)
 
 Tours
 
 Janv. 2015 - Janv. 2018
 
+<p class="subtitle">
 Responsable technique de l'Observatoire du bassin versant Louroux sur l'érosion des sols agricoles
+</p>
 
 ::: concise
 - Mise en place des chaînes de traitement et suivi qualité des données de l'Observatoire (site Zone Atelier Loire)
@@ -182,7 +181,9 @@ Antony
 
 Oct. 2013 - oct. 2014
 
+<p class="subtitle">
 Modélisation spatiale et temporelle de plans d'eau pour l'aide à la décision de renaturation de cours d'eau
+</p>
 
 Formation académique {data-icon=graduation-cap data-concise=true}
 --------------------------------------------------------------------------------
