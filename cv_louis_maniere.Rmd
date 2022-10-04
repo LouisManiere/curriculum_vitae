@@ -203,16 +203,21 @@ Paris
 
 2012
 
-Research Experience {data-icon=img/benevolat_transparent.png}
+Bénévolat {data-icon=handshake}
 --------------------------------------------------------------------------------
 
-### Graduate Research Assistant
+### Hydraulique Sans Frontières : Maîtrise d'oeuvre eau et assainissement
 
-Beijing Institute of Genomics, Chinese Academy of Sciences
+N/A
 
-Beijing, China
+Burkina Faso
 
-2011 - 2014
+Depuis 2019
 
-- Performed computational biology research towards understanding regulation of alternative splicing in human and mouse transcriptome.
-- Found EGFR pathway related mutations, aimed to understand the impacts of cancer mutations on EGFR signaling pathway.
+### CartONG : OSM et projets cartographiques
+
+N/A
+
+N/A
+
+2020 - 2021
