@@ -53,13 +53,6 @@
     margin: 0.05in 0 0.1in 0;
 }
 
-[aside="etre"] li::before {
-    position: relative;
-    margin-left: -4.25pt;
-    content: '• ';
-}
-
-
 .subtitle{
     margin-bottom: 5px;
     margin-top: 5px;
