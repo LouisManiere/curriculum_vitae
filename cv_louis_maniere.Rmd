@@ -107,6 +107,11 @@ Louis Manière {#title}
 
 ### Ingénieur géomaticien
 
+<p style="margin-top:0.1in; margin-bottom:0in">
+7 ans d'expérience dans la gestion et le traitement de l'information géographique
+<br />Anglais courant
+</p>
+
 <!-- 6 ans d'expérience dans la gestion et le traitement des données de recherche,  -->
 <!-- <br />je souhaite développer mon expertise dans leur valorisation​ -->
 
@@ -120,9 +125,7 @@ N/A
 
 Juillet 2022 - Aujourd'hui
 
-::: concise
 - Mise à jour des scripts de migration de la base de données géographique du projet archéologique européen Desert Networks
-:::
 
 ### Géomaticien - data ingénieur
 
@@ -186,7 +189,7 @@ Oct. 2013 - oct. 2014
 Modélisation spatiale et temporelle de plans d'eau pour l'aide à la décision de renaturation de cours d'eau
 </p>
 
-Formation académique {data-icon=graduatN/Aion-cap data-concise=true}
+Formation académique {data-icon=graduation-cap data-concise=true}
 --------------------------------------------------------------------------------
 
 ### Master 2 Sciences de l'eau (anc. Cogeval'eau)
