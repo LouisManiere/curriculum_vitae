@@ -56,8 +56,8 @@ if(params$doctype == "PDF") {
     - <i class="fa fa-map-marked-alt"></i> Lyon, France
     - <i class="fa fa-phone"></i> +33 667741585
     - <i class="fa fa-envelope"></i> louismaniere<!-- breaking hyplerlink -->@orange.fr
-    - <i class="fa fa-github"></i> github.com/mleary
-    - <i class="fab fa-linkedin-in"></i> linkedin.com/mbleary
+    - <i class="fa fa-github"></i> [github.com/LouisManiere](https://github.com/LouisManiere)
+    - <i class="fab fa-linkedin-in"></i> [linkedin.com/louis-manière](https://www.linkedin.com/in/louis-mani%C3%A8re-03760750/)
   ')
 }
 ```
@@ -86,6 +86,8 @@ Web {#web}
 build_skill_bars(skill_data, "Web")
 ```
 
+<!-- \newpage -->
+
 Savoir être {#etre}
 --------------------------------------------------------------------------------
 
@@ -105,10 +107,10 @@ Main
 Louis Manière {#title}
 --------------------------------------------------------------------------------
 
-### Ingénieur géomaticien
+### Ingénieur en hydrologie et géomatique
 
 <p style="margin-top:0.1in; margin-bottom:0in">
-7 ans d'expérience dans la gestion et le traitement de l'information géographique
+8 ans d'expérience dans la gestion et le traitement des données avec une spécialisation en hydrologie et environnement.
 <br />Anglais courant
 </p>
 
@@ -117,6 +119,17 @@ Louis Manière {#title}
 
 Expériences professionnelles {data-icon=suitcase}
 --------------------------------------------------------------------------------
+### Ingénieur en conception d'application interactive en géomorphologie fluviale
+
+CNRS - Laboratoire Environnement, Ville, Société
+
+Lyon
+
+Janvier 2023 - Aujourd'hui
+
+- Rédaction du cahier des charges des besoins et réalisation d'une application cartographique d'analyse de l'hydromorphologie des cours d'eau français pour les gestionnaires de rivière (projet avec l'Office Français de la Biodiversité)
+- Technologies : R (Shiny), Python, PostgreSQL, Geoserver
+
 ### Géomaticien - auto-entrepreneur
 
 N/A
@@ -125,7 +138,8 @@ N/A
 
 Juillet 2022 - Aujourd'hui
 
-- Mise à jour des scripts de migration de la base de données géographique du projet archéologique européen Desert Networks
+- Mise à jour des programmes de migration de la base de données géographique du projet archéologique européen Desert Networks (Python)
+- Création de 15 cartes sur l'analyse d'itinéraires antiques du désert oriental égyptien
 
 ### Géomaticien - data ingénieur
 
@@ -135,11 +149,11 @@ Lyon
 
 Nov. 2021 - Juin 2022
 
-::: concise
-- Développement d'une application web cartographique des [guichets d'autorisation d'urbanisme](https://www.gnau.fr) (Django, Leaflet)
+<!-- ::: concise -->
+- Développement d'une application web cartographique des guichets d'autorisation d'urbanisme (Django, Leaflet)
 - Refonte de la base de données PostGIS de production cartographique d'avant projet fibre optique
-- Développement de plugin QGIS 3 et d'outils de traitement ou de vérification de données spatiales (Python, R)
-:::
+- Développement de plugin QGIS 3 et d'outils de traitement ou de vérification de données spatiales (Python, R, pyqgis 3)
+<!-- ::: -->
 
 ### Ingénieur d'études SIG
 
@@ -150,7 +164,7 @@ Lyon
 Févr. 2019 - Août 2021
 
 <p class="subtitle">
-Responsable des données spatiales du projet ERC Desert Networks - [Desert Networks project](https://desertnetworks.huma-num.fr/sites)
+Responsable des données spatiales du projet ERC Desert Networks - [website](https://desertnetworks.huma-num.fr/sites)
 </p>
 
 ::: concise
@@ -172,10 +186,12 @@ Janv. 2015 - Janv. 2018
 Responsable technique de l'Observatoire du bassin versant Louroux sur l'érosion des sols agricoles
 </p>
 
-::: concise
+<!-- ::: concise -->
+- Développement de l'instrumentation du suivi hydro-sédimentaire et météorologiques
+- Collecte de données de terrain (phosphore, jaugeage, état de surface)
 - Mise en place des chaînes de traitement et suivi qualité des données de l'Observatoire (site Zone Atelier Loire)
 - Analyses des données spatiales du territoire (R, ArcGIS, QGIS) et rédaction des livrables techniques
-:::
+<!-- ::: -->
 
 ### Ingénieur d'études en hydromorphologie
 
@@ -188,6 +204,8 @@ Oct. 2013 - oct. 2014
 <p class="subtitle">
 Modélisation spatiale et temporelle de plans d'eau pour l'aide à la décision de renaturation de cours d'eau
 </p>
+
+\newpage
 
 Formation académique {data-icon=graduation-cap data-concise=true}
 --------------------------------------------------------------------------------
