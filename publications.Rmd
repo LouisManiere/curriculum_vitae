@@ -16,27 +16,19 @@ fontsize: 10pt
 knitr::opts_chunk$set(echo = TRUE)
 ```
 
-### Formations (3)
-
-**SIGR, Sciences de l’Information Géographique Reproductibles** (2021). Ecole d'été CNRS, 5 jours.
-
-**PostGIS** (2020). Makina Corpus (formation certifiante), 3 jours.
-
-**Python pour l’analyse géospatiale** (2019), Makina Corpus (formation certifiante), 3 jours.
-
-### Enseignement (1)
-
-**Hydrologie, métrologie et analyse de données** (2016 – 2018). Master 1 Hydrosystèmes et Bassins Versants, Université de Tours.
-
-### Publications scientifiques (avec comité de lecture) (8)
+### Publications scientifiques (avec comité de lecture) (10)
 
 Crépy, M., **Manière, L.** and Redon, B. forthcoming. Roads in the sand: Using data from modern travelers to reconstruct the ancient road networks of Egypt’s Eastern Desert. In: Kulayci, T (ed.). Archaeologies of Roads. Grand Forks: Digital Press at the University of North Dakota.
+
+Crépy M., Faucher T., Redon B., Le Bomin J., **Manière L.**, Marchand J., Rabot A. and Villars N. (2022). Désert oriental (2021). Stathmoi et metalla. Exploiter et traverser le désert oriental à l’époque ptolémaïque. Bulletin archéologique des Écoles françaises à l’étranger. DOI : [https://doi.org/10.4000/baefe.6368](https://doi.org/10.4000/baefe.6368)
+
+Redon B., Boussac M-F., Ahmed E., Bouchaud C., Crépy M., Dhennin S., El Dorry M-A., François P., Dautais L., Le Bomin J., **Manière L.**, Marchand J., Marchi S., Pagnoux C., Pesenti M., Rabot A., Şenol G., Somaglino C., Vanpeene M. and Villars N. (2021). Taposiris Magna et Plinthine (2020): Deux villes de Maréotide. Bulletin archéologique des Écoles françaises à l’étranger. DOI : [https://doi.org/10.4000/baefe.2825](DOI : https://doi.org/10.4000/baefe.2825)
 
 **Manière, L.**, Crépy, M. and Redon, B. (2021). Building a Model to Reconstruct the Hellenistic and Roman Road Networks of the Eastern Desert of Egypt, a Semi-Empirical Approach Based on Modern Travelers’ Itineraries. Journal of Computer Applications in Archaeology, 4(1), pp.20–46. DOI: [http://doi.org/10.5334/jcaa.67](http://doi.org/10.5334/jcaa.67)
 
 **Manière, L.**, Crépy, M. and Redon, B. (2020). Geospatial Data from the “Building a Model to Reconstruct the Hellenistic and Roman Road Networks of the Eastern Desert of Egypt, a Semi-Empirical Approach Based on Modern Travelers’ Itineraries” Paper, Journal of Open Archaeology Data, 8: 7. DOI: [https://doi.org/10.5334/joad.71](https://doi.org/10.5334/joad.71)
 
-Grangeon, T., Cerdan, O., Landemaine, V., Vandromme, R., Desprats, J., Salvador-Blanes, S., Vanhooydonck, P., Gaillot, A., **Manière, L.**, Pene-Galland, I., Evrard, O., Foucher, A., Ledieu, L., Simonneau, A., Ouvry, J., and Ting Pak, L., (2020) Runoff observatories: From processes analysis to improved modelling, La Houille Blanche, 106:6, 7-16, DOI: [https://doi.org/10.1051/lhb/2020056](https://doi.org/10.1051/lhb/2020056)
+Grangeon, T., Cerdan, O., Landemaine, V., Vandromme, R., Desprats, J., Salvador-Blanes, S., Vanhooydonck, P., Gaillot, A., **Manière, L.**, Pene-Galland, I., Evrard, O., Foucher, A., Ledieu, L., Simonneau, A., Ouvry, J., and Ting Pak, L. (2020). Les observatoires du ruissellement : comprendre les processus pour améliorer les modélisations, La Houille Blanche, 106:6, 7-16, DOI: [https://doi.org/10.1051/lhb/2020056](https://doi.org/10.1051/lhb/2020056)
 
 Grangeon, T., **Manière, L.**, Foucher, A., Vandromme, R., Cerdan, O., Evrard, O., Pene-Galland, I.,  Salvador-Blanes, S. (2017). Hydro-sedimentary dynamics of a drained agricultural headwater catchment: a nested monitoring approach. Vadose Zone J. 16(12), DOI : [https://doi.org/10.2136/vzj2017.05.0113](https://doi.org/10.2136/vzj2017.05.0113)
 
@@ -44,13 +36,13 @@ Le Gall, M., Evrard, O., Foucher, A., Laceby, J. P., Salvador-Blanes, S., **Mani
 
 Le Gall, M., Evrard, O., Thil, F., Foucher, A., Laceby, J. P., **Manière, L.**, Salvador-Blanes, S., Ayrault, S. (2016). Examining suspended sediment sources and dynamics during floods in a drained catchment using stable strontium isotopes and fallout radionuclides. Chemical Geology, DOI : [https://doi.org/10.1016/j.chemgeo.2016.12.007](https://doi.org/10.1016/j.chemgeo.2016.12.007)
 
-Foucher, A., Le Gall, M., Salvador-Blanes, S., Evrard, O., Cerdan, O., Laceby, J. P., Vandromme, R., Lefèvre, I., **Manière, L.**, Grangeon, T., Bakyono, J.P., Desmet, M. (2017). Accroissement de la contribution des sources d’érosion aux rivières et plans d ’ eau (1950 ‑ 2010): le cas du Louroux (Indre‑et‑Loire, France), 11–18, DOI : [https://doi.org/10.1051/lhb/2017051 ](https://doi.org/10.1051/lhb/2017051 )
+Foucher, A., Le Gall, M., Salvador-Blanes, S., Evrard, O., Cerdan, O., Laceby, J. P., Vandromme, R., Lefèvre, I., **Manière, L.**, Grangeon, T., Bakyono, J.P., Desmet, M. (2017). Accroissement de la contribution des sources d’érosion aux rivières et plans d’eau (1950–2010): le cas du Louroux (Indre–et–Loire, France), 11–18, DOI : [https://doi.org/10.1051/lhb/2017051 ](https://doi.org/10.1051/lhb/2017051 )
 
 ### Congrès internationaux (10)
 
-Crépy, M., **Manière, L.** and Redon, B. forthcoming. Roads in the sand: Using data from modern travelers to reconstruct the ancient road networks of Egypt’s Eastern Desert (2019). Archaeologies of Roads, Florence Italy. Oral presentation, **speaker**.
+Crépy, M., **Manière, L.** and Redon, B. forthcoming. Roads in the sand: Using data from modern travelers to reconstruct the ancient road networks of Egypt’s Eastern Desert (2019). Archaeologies of Roads, Florence Italy. **Oral presentation, speaker**.
 
-**Manière, L.**, Verreth, H. (2019). Desert Networks and Trismegistos. Combining archaeological and historical sources from the Egyptian Eastern desert in a spatial online environment. Project (KU Leuven), ERC Desert Networks. Red Sea conference IX, Networked Spaces, Lyon (France). Oral presentation, **speaker**.
+**Manière, L.**, Verreth, H. (2019). Desert Networks and Trismegistos. Combining archaeological and historical sources from the Egyptian Eastern desert in a spatial online environment. Project (KU Leuven), ERC Desert Networks. Red Sea conference IX, Networked Spaces, Lyon (France). **Oral presentation, speaker**.
 
 Vandromme, R., Grangeon, T., Cerdan, O., **Manière, L.**, Salvador-Blanes, S., Foucher, A., Chapalain, M., Evrard, O.,  Le Gall, M. (2016). Overland flow and sediment transport in an agricultural lowland catchment: a focus on tile drain export. EGU General Assembly, Vienna (Austria). **Oral presentation**.
 

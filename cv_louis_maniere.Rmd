@@ -11,7 +11,7 @@ output:
     # set it to true for a self-contained HTML page but it'll take longer to render
     self_contained: true
 params:
-  doctype: "HTML" # "PDF" or "HTML" is automatically updated in update_resume.R 
+  doctype: "PDF" # "PDF" or "HTML" is automatically updated in update_resume.R 
 # uncomment this line to produce HTML and PDF in RStudio:
 knit: pagedown::chrome_print
 ---
@@ -62,20 +62,20 @@ if(params$doctype == "PDF") {
 }
 ```
 
-SIG {#skills}
---------------------------------------------------------------------------------
-
-```{r sigskills, dev.args = list(bg = 'transparent')}
-# function from helper_functions.R
-build_skill_bars(skill_data, "SIG")
-```
-
 Data science {#datascience}
 --------------------------------------------------------------------------------
 
 ```{r dataskills, dev.args = list(bg = 'transparent')}
 # function from helper_functions.R
-build_skill_bars(skill_data, "Spatial data science")
+build_skill_bars(skill_data, "data science")
+```
+
+Instrumentation {#instrumentation}
+--------------------------------------------------------------------------------
+
+```{r sigskills, dev.args = list(bg = 'transparent')}
+# function from helper_functions.R
+build_skill_bars(skill_data, "instrumentation")
 ```
 
 Web {#web}
@@ -107,10 +107,10 @@ Main
 Louis Manière {#title}
 --------------------------------------------------------------------------------
 
-### Ingénieur en hydrologie et géomatique
+### Ingénieur en gestion de données et hydrologie
 
 <p style="margin-top:0.1in; margin-bottom:0in">
-8 ans d'expérience dans la gestion et le traitement des données avec une spécialisation en hydrologie et environnement.
+Plus de 8 ans d'expérience dans l'acquisition, la gestion et le traitement des données avec une spécialisation en hydrologie et environnement.
 <br />Anglais courant
 </p>
 
@@ -151,8 +151,8 @@ Nov. 2021 - Juin 2022
 
 <!-- ::: concise -->
 - Développement d'une application web cartographique des guichets d'autorisation d'urbanisme (Django, Leaflet)
-- Refonte de la base de données PostGIS de production cartographique d'avant projet fibre optique
-- Développement de plugin QGIS 3 et d'outils de traitement ou de vérification de données spatiales (Python, R, pyqgis 3)
+- Refonte de la base de données PostgreSQL de production cartographique d'avant projet fibre optique
+- Développement de plugins QGIS 3 et d'outils de traitement ou de vérification des données (Python, R, pyqgis 3)
 <!-- ::: -->
 
 ### Ingénieur d'études SIG
@@ -164,14 +164,14 @@ Lyon
 Févr. 2019 - Août 2021
 
 <p class="subtitle">
-Responsable des données spatiales du projet ERC Desert Networks - [website](https://desertnetworks.huma-num.fr/sites)
+Responsable des données géographique du projet ERC Desert Networks - [website](https://desertnetworks.huma-num.fr/sites)
 </p>
 
 ::: concise
-- Préparation et vérification de données (géoréférencement, tables attributaires, topologie), analyse de données de réseaux de transport antiques
-- Alimentation des données du site internet, du Geoserver (admin) et de la base de données PostGIS (admin) 
+- Préparation et vérification de données (géoréférencement, tables attributaires, topologie), analyse de données de réseaux de transport antique
+- Administrateur de la base de données PostgreSQL (projet et site internet) et du Geoserver
 - Rédaction de datapaper (avec métadonnées ISO 19139) et publication de cartes thématiques
-- Production d'outils SIG (ArcGIS, QGIS, Python 3, R) et rédaction d'articles scientifiques, blog et documentations
+- Production d'outils d'analyse (ArcGIS, QGIS, Python 3, R) et rédaction d'articles scientifiques, blog et documentations
 :::
 
 ### Ingénieur d'études en hydrologie et environnement
@@ -183,14 +183,14 @@ Tours
 Janv. 2015 - Janv. 2018
 
 <p class="subtitle">
-Responsable technique de l'Observatoire du bassin versant Louroux sur l'érosion des sols agricoles
+Responsable technique de l'Observatoire du bassin versant Louroux sur l'érosion des sols agricoles (site Zone Atelier Loire)
 </p>
 
 <!-- ::: concise -->
 - Développement de l'instrumentation du suivi hydro-sédimentaire et météorologiques
 - Collecte de données de terrain (phosphore, jaugeage, état de surface)
-- Mise en place des chaînes de traitement et suivi qualité des données de l'Observatoire (site Zone Atelier Loire)
-- Analyses des données spatiales du territoire (R, ArcGIS, QGIS) et rédaction des livrables techniques
+- Mise en place des chaînes de traitement et suivi qualité des données de l'Observatoire
+- Traitement et analyses des données (R, ArcGIS, QGIS) et rédaction des livrables techniques
 <!-- ::: -->
 
 ### Ingénieur d'études en hydromorphologie
@@ -202,10 +202,57 @@ Antony
 Oct. 2013 - oct. 2014
 
 <p class="subtitle">
-Modélisation spatiale et temporelle de plans d'eau pour l'aide à la décision de renaturation de cours d'eau
+Mesures de terrain sur la morphologie et le transport sédimentaire de 9 plans d'eau arrasés, modélisation spatiale et temporelle de leurs évolutions pour l'aide à la décision de renaturation de cours d'eau (OFB)
 </p>
 
 \newpage
+
+Enseignement {data-icon=pencil data-concise=true}
+--------------------------------------------------------------------------------
+
+### Métrologie et analyse de données de l'Observatoire du Louroux (terrain et laboratoire)
+
+Master 1 Hydrosystèmes et Bassins Versants, Université de Tours
+
+Tours
+
+2016 - 2018
+
+
+Formation continue {data-icon=level-up data-concise=true}
+--------------------------------------------------------------------------------
+
+### Conception d'interface Shiny (developpeur niveau 3)
+
+ThinkR, 5 jours
+
+N/A
+
+Octobre 2023
+
+### SIGR, Sciences de l’Information Géographique Reproductibles
+
+Ecole d'été CNRS, 5 jours
+
+N/A
+
+2021
+
+### Base de données PostgreSQL/PostGIS
+
+Makina Corpus (formation certifiante), 3 jours
+
+N/A
+
+2020
+
+### Python pour l’analyse géospatiale
+
+Makina Corpus (formation certifiante), 3 jours
+
+N/A
+
+2019
 
 Formation académique {data-icon=graduation-cap data-concise=true}
 --------------------------------------------------------------------------------
@@ -235,7 +282,7 @@ N/A
 
 Burkina Faso
 
-Depuis 2019
+2019 - Aujourd'hui
 
 ### CartONG : OSM et projets cartographiques
 
