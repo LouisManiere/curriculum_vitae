@@ -238,6 +238,14 @@ N/A
 
 2021
 
+### Analyse de données multidimensionelles
+
+CNRS, 2 jours
+
+N/A
+
+2020
+
 ### Base de données PostgreSQL/PostGIS
 
 Makina Corpus (formation certifiante), 3 jours
