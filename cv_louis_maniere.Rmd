@@ -121,7 +121,7 @@ Expériences professionnelles {data-icon=suitcase}
 --------------------------------------------------------------------------------
 ### Ingénieur en conception d'application interactive en géomorphologie fluviale
 
-CNRS - Laboratoire Environnement, Ville, Société
+CNRS - Laboratoire Environnement, Ville, Société (EVS UMR5600)
 
 Lyon
 
@@ -143,7 +143,7 @@ Juillet 2022 - Aujourd'hui
 
 ### Géomaticien - data ingénieur
 
-METIS - bureau d'étude en géomatique et télécommunication
+METIS - bureau d'études en géomatique et télécommunication
 
 Lyon
 

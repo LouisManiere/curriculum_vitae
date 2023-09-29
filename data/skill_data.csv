@@ -1,5 +1,5 @@
 section,skill,level
-data science,PostgreSQL/PostGIS,4
+data science,PostgreSQL/PostGIS,4.2
 data science,R,4
 data science,Python 3,4
 data science,GitHub/GitLab,3.5
@@ -10,4 +10,4 @@ instrumentation,Topographie,4
 Web,Geoserver,4
 Web,Leaflet (Javascript),4
 Web,Django (python),3.5
-Web,Shiny (R),2
+Web,Shiny (R),3
