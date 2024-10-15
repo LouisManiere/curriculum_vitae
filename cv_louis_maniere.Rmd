@@ -11,7 +11,9 @@ output:
     # set it to true for a self-contained HTML page but it'll take longer to render
     self_contained: true
 params:
-  doctype: "HTML" # "PDF" or "HTML" is automatically updated in update_resume.R 
+  pdf_mode:
+    value: true
+ # doctype: "HTML" # "PDF" or "HTML" is automatically updated in update_resume.R
 # uncomment this line to produce HTML and PDF in RStudio:
 knit: pagedown::chrome_print
 ---
@@ -33,7 +35,7 @@ Aside
 ================================================================================
 
 ```{r echo=FALSE, out.width='100%', fig.align='center'}
-knitr::include_graphics('img/photo_map.png')
+knitr::include_graphics('img/photo_map_V2.png')
 ```
 
 
@@ -42,7 +44,7 @@ Contact {#contact}
 
 ```{r contactinfo}
 # Adjust contact info based on document type - html has link while pdf does not
-if(params$doctype == "HTML") {
+# if(params$doctype == "HTML") {
   glue::glue('
     - <i class="fa fa-map-marked-alt"></i> Lyon, France
     - <i class="fa fa-phone"></i> <a href="tel:+33 667741585">+33 667741585</a>
@@ -50,24 +52,16 @@ if(params$doctype == "HTML") {
     - <i class="fa fa-github"></i> [github.com/LouisManiere](https://github.com/LouisManiere)
     - <i class="fab fa-linkedin-in"></i> [linkedin.com/louis-manière](https://www.linkedin.com/in/louis-mani%C3%A8re-03760750/)
   ')
-} 
-if(params$doctype == "PDF") {
-  glue::glue('
-    - <i class="fa fa-map-marked-alt"></i> Lyon, France
-    - <i class="fa fa-phone"></i> +33 667741585
-    - <i class="fa fa-envelope"></i> louismaniere<!-- breaking hyplerlink -->@orange.fr
-    - <i class="fa fa-github"></i> [github.com/LouisManiere](https://github.com/LouisManiere)
-    - <i class="fab fa-linkedin-in"></i> [linkedin.com/louis-manière](https://www.linkedin.com/in/louis-mani%C3%A8re-03760750/)
-  ')
-}
-```
-
-SIG {#skills}
---------------------------------------------------------------------------------
-
-```{r sigskills, dev.args = list(bg = 'transparent')}
-# function from helper_functions.R
-build_skill_bars(skill_data, "SIG")
+# }
+# if(params$doctype == "PDF") {
+#   glue::glue('
+#     - <i class="fa fa-map-marked-alt"></i> Lyon, France
+#     - <i class="fa fa-phone"></i> +33 667741585
+#     - <i class="fa fa-envelope"></i> louismaniere<!-- breaking hyplerlink -->@orange.fr
+#     - <i class="fa fa-github"></i> [github.com/LouisManiere](https://github.com/LouisManiere)
+#     - <i class="fab fa-linkedin-in"></i> [linkedin.com/louis-manière](https://www.linkedin.com/in/louis-mani%C3%A8re-03760750/)
+#   ')
+# }
 ```
 
 Data science {#datascience}
@@ -75,7 +69,15 @@ Data science {#datascience}
 
 ```{r dataskills, dev.args = list(bg = 'transparent')}
 # function from helper_functions.R
-build_skill_bars(skill_data, "Spatial data science")
+build_skill_bars(skill_data, "data science")
+```
+
+Instrumentation {#instrumentation}
+--------------------------------------------------------------------------------
+
+```{r sigskills, dev.args = list(bg = 'transparent')}
+# function from helper_functions.R
+build_skill_bars(skill_data, "instrumentation")
 ```
 
 Web {#web}
@@ -107,10 +109,10 @@ Main
 Louis Manière {#title}
 --------------------------------------------------------------------------------
 
-### Ingénieur en hydrologie et géomatique
+### Ingénieur en gestion de données et hydrologie
 
 <p style="margin-top:0.1in; margin-bottom:0in">
-9 ans d'expérience dans la gestion et le traitement des données avec une spécialisation en hydrologie et environnement.
+9 ans d'expérience dans l'acquisition, la gestion et le traitement des données avec une spécialisation en hydrologie et environnement.
 <br />Anglais courant
 </p>
 
@@ -119,7 +121,7 @@ Louis Manière {#title}
 
 Expériences professionnelles {data-icon=suitcase}
 --------------------------------------------------------------------------------
-### Ingénieur d'étude base de données et instrumentation
+### Ingénieur en base de données et instrumentation
 
 Université de Tours - Laboratoire Géohydrosystèmes Continentaux (GeHCO)
 
@@ -127,20 +129,18 @@ Tours
 
 Mars 2024 - Aujourd'hui
 
-- Traitement et valorisation des données de projets de recherche (contaminants, surplus azotés, érosion des sols, érosion de berges).
-- Instrumentation de bassins versants. 
-- Enseignements : statistiques et data mining sur R.
+- Gestion, traitement et valorisation des données de recherche (contaminants, surplus azotés, érosion des sols, érosion de berges)
+- Instrumentation de bassins versants
 
 ### Ingénieur en conception d'application interactive en géomorphologie fluviale
 
-CNRS - Laboratoire Environnement, Ville, Société
+CNRS - Laboratoire Environnement, Ville, Société (EVS UMR5600)
 
 Lyon
 
-Janvier 2023 - Février 2024
+Janv. 2023 - Févr. 2024
 
-- Rédaction du cahier des charges des besoins et réalisation d'une application cartographique d'analyse de l'hydromorphologie des cours d'eau français pour les gestionnaires de rivière (projet avec l'Office Français de la Biodiversité)
-- Technologies : R (Shiny), Python, PostgreSQL, Geoserver
+- Rédaction du cahier des charges des besoins et réalisation d'une application cartographique web d'analyse de l'hydromorphologie des cours d'eau français (OFB)
 
 ### Géomaticien - auto-entrepreneur
 
@@ -155,7 +155,7 @@ Juillet 2022 - Aujourd'hui
 
 ### Géomaticien - data ingénieur
 
-METIS - bureau d'étude en géomatique et télécommunication
+METIS - bureau d'études en géomatique et télécommunication
 
 Lyon
 
@@ -163,8 +163,8 @@ Nov. 2021 - Juin 2022
 
 <!-- ::: concise -->
 - Développement d'une application web cartographique des guichets d'autorisation d'urbanisme (Django, Leaflet)
-- Refonte de la base de données PostGIS de production cartographique d'avant projet fibre optique
-- Développement de plugin QGIS 3 et d'outils de traitement ou de vérification de données spatiales (Python, R, pyqgis 3)
+- Refonte de la base de données PostgreSQL de production cartographique d'avant projet fibre optique
+- Développement de plugins QGIS et d'outils de traitement de données (Python, R, pyqgis 3)
 <!-- ::: -->
 
 ### Ingénieur d'études SIG
@@ -176,14 +176,14 @@ Lyon
 Févr. 2019 - Août 2021
 
 <p class="subtitle">
-Responsable des données spatiales du projet ERC Desert Networks - [website](https://desertnetworks.huma-num.fr/sites)
+Responsable des données géographique du projet ERC Desert Networks - [website](https://desertnetworks.huma-num.fr/sites)
 </p>
 
 ::: concise
-- Préparation et vérification de données (géoréférencement, tables attributaires, topologie), analyse de données de réseaux de transport antiques
-- Alimentation des données du site internet, du Geoserver (admin) et de la base de données PostGIS (admin) 
+- Préparation et vérification de données (géoréférencement, tables attributaires, topologie), analyse de données de réseaux de transport antique
+- Administrateur de la base de données PostgreSQL (projet et site internet) et du Geoserver
 - Rédaction de datapaper (avec métadonnées ISO 19139) et publication de cartes thématiques
-- Production d'outils SIG (ArcGIS, QGIS, Python 3, R) et rédaction d'articles scientifiques, blog et documentations
+- Production d'outils d'analyse (ArcGIS, QGIS, Python 3, R) et rédaction d'articles scientifiques, blog et documentations
 :::
 
 ### Ingénieur d'études en hydrologie et environnement
@@ -195,14 +195,13 @@ Tours
 Janv. 2015 - Janv. 2018
 
 <p class="subtitle">
-Responsable technique de l'Observatoire du bassin versant Louroux sur l'érosion des sols agricoles
+Responsable technique de l'Observatoire du bassin versant Louroux sur l'érosion des sols agricoles (site Zone Atelier Loire)
 </p>
 
 <!-- ::: concise -->
 - Développement de l'instrumentation du suivi hydro-sédimentaire et météorologiques
-- Collecte de données de terrain (phosphore, jaugeage, état de surface)
-- Mise en place des chaînes de traitement et suivi qualité des données de l'Observatoire (site Zone Atelier Loire)
-- Analyses des données spatiales du territoire (R, ArcGIS, QGIS) et rédaction des livrables techniques
+- Mise en place des chaînes de traitement et suivi qualité des données de l'Observatoire
+- Traitement et analyses des données (R, ArcGIS, QGIS) et rédaction des livrables techniques
 <!-- ::: -->
 
 ### Ingénieur d'études en hydromorphologie
@@ -214,8 +213,73 @@ Antony
 Oct. 2013 - oct. 2014
 
 <p class="subtitle">
-Modélisation spatiale et temporelle de plans d'eau pour l'aide à la décision de renaturation de cours d'eau
+Mesures de terrain sur la morphologie et le transport sédimentaire de 9 plans d'eau arrasés, modélisation spatiale et temporelle de leurs évolutions pour l'aide à la décision de renaturation de cours d'eau (OFB)
 </p>
+
+\newpage
+
+Enseignement {data-icon=pencil data-concise=true}
+--------------------------------------------------------------------------------
+
+### Statistiques et data mining
+
+Master 1 Hydrosystèmes et Bassins Versants, Université de Tours
+
+Tours
+
+2024
+
+### Métrologie et analyse de données de l'Observatoire du Louroux (terrain et laboratoire)
+
+Master 1 Hydrosystèmes et Bassins Versants, Université de Tours
+
+Tours
+
+2016 - 2018
+
+
+Formation continue {data-icon=level-up data-concise=true}
+--------------------------------------------------------------------------------
+
+### Conception d'interface Shiny (developpeur niveau 3)
+
+ThinkR (formation certifiante), 5 jours
+
+N/A
+
+2023
+
+### SIGR, Sciences de l’Information Géographique Reproductibles
+
+Ecole d'été CNRS, 5 jours
+
+N/A
+
+2021
+
+### Analyse de données multidimensionelles
+
+CNRS, 2 jours
+
+N/A
+
+2020
+
+### Base de données PostgreSQL/PostGIS
+
+Makina Corpus (formation certifiante), 3 jours
+
+N/A
+
+2020
+
+### Python pour l’analyse géospatiale
+
+Makina Corpus (formation certifiante), 3 jours
+
+N/A
+
+2019
 
 Formation académique {data-icon=graduation-cap data-concise=true}
 --------------------------------------------------------------------------------
@@ -245,7 +309,7 @@ N/A
 
 Burkina Faso
 
-Depuis 2019
+2019 - Aujourd'hui
 
 ### CartONG : OSM et projets cartographiques
 
