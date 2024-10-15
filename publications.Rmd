@@ -38,6 +38,8 @@ Le Gall, M., Evrard, O., Thil, F., Foucher, A., Laceby, J. P., **Manière, L.**,
 
 Foucher, A., Le Gall, M., Salvador-Blanes, S., Evrard, O., Cerdan, O., Laceby, J. P., Vandromme, R., Lefèvre, I., **Manière, L.**, Grangeon, T., Bakyono, J.P., Desmet, M. (2017). Accroissement de la contribution des sources d’érosion aux rivières et plans d’eau (1950–2010): le cas du Louroux (Indre–et–Loire, France), 11–18, DOI : [https://doi.org/10.1051/lhb/2017051 ](https://doi.org/10.1051/lhb/2017051)
 
+\newpage
+
 ### Publication de jeux de données (3)
 
 Dunesme, S., **Manière, L.**, Rousson, C. (2024). Database of Metrics on River Corridors in France at the Regional Scale (v1.0) [Data set]. Recherche Data Gouv. [https://doi.org/10.57745/V7D5RZ](https://doi.org/10.57745/V7D5RZ)
