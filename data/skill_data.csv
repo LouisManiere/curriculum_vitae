@@ -3,10 +3,10 @@ SIG,ArcGIS (ArcPy),5
 SIG,QGIS 3 (PyQGIS),5
 SIG,FME Desktop,2
 Spatial data science,PostgreSQL/PostGIS,4
-Spatial data science,R,4
+Spatial data science,R,5
 Spatial data science,Python 3,4
 Spatial data science,GitHub/GitLab,3.5
 Web,Geoserver,4
 Web,Leaflet (Javascript),4
 Web,Django,3.5
-Web,Shiny,2
+Web,Shiny,4
