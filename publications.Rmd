@@ -1,12 +1,10 @@
 ---
-title: "Publications"
-author: "Louis Manière"
-date: "`r Sys.Date()`"
+title: ""
+author: ""
+date: ""
 output: 
   pdf_document:
     latex_engine: xelatex
-    includes:
-      in_header: header.tex
 mainfont: Open Sans
 urlcolor: blue
 fontsize: 10pt
@@ -16,9 +14,11 @@ fontsize: 10pt
 knitr::opts_chunk$set(echo = TRUE)
 ```
 
-### Publications scientifiques (avec comité de lecture) (10)
+### Publications scientifiques (avec comité de lecture) (11)
 
-Crépy, M., **Manière, L.** and Redon, B. forthcoming. Roads in the sand: Using data from modern travelers to reconstruct the ancient road networks of Egypt’s Eastern Desert. In: Kulayci, T (ed.). Archaeologies of Roads. Grand Forks: Digital Press at the University of North Dakota.
+Redon, B., **Manière, L.** Forthcoming. The Towers on the Roman Coptos-Myos Hormos Road in Egypt: Communication Signals or Surveillance Towers? The Journal of Egyptian Archaeology.
+
+Crépy, M., **Manière, L.** and Redon, B. (2023). Roads in the sand: Using data from modern travelers to reconstruct the ancient road networks of Egypt’s Eastern Desert. In: Kulayci, T (ed.). Archaeologies of Roads. Grand Forks: Digital Press at the University of North Dakota.
 
 Crépy M., Faucher T., Redon B., Le Bomin J., **Manière L.**, Marchand J., Rabot A. and Villars N. (2022). Désert oriental (2021). Stathmoi et metalla. Exploiter et traverser le désert oriental à l’époque ptolémaïque. Bulletin archéologique des Écoles françaises à l’étranger. DOI : [https://doi.org/10.4000/baefe.6368](https://doi.org/10.4000/baefe.6368)
 
@@ -36,11 +36,19 @@ Le Gall, M., Evrard, O., Foucher, A., Laceby, J. P., Salvador-Blanes, S., **Mani
 
 Le Gall, M., Evrard, O., Thil, F., Foucher, A., Laceby, J. P., **Manière, L.**, Salvador-Blanes, S., Ayrault, S. (2016). Examining suspended sediment sources and dynamics during floods in a drained catchment using stable strontium isotopes and fallout radionuclides. Chemical Geology, DOI : [https://doi.org/10.1016/j.chemgeo.2016.12.007](https://doi.org/10.1016/j.chemgeo.2016.12.007)
 
-Foucher, A., Le Gall, M., Salvador-Blanes, S., Evrard, O., Cerdan, O., Laceby, J. P., Vandromme, R., Lefèvre, I., **Manière, L.**, Grangeon, T., Bakyono, J.P., Desmet, M. (2017). Accroissement de la contribution des sources d’érosion aux rivières et plans d’eau (1950–2010): le cas du Louroux (Indre–et–Loire, France), 11–18, DOI : [https://doi.org/10.1051/lhb/2017051 ](https://doi.org/10.1051/lhb/2017051 )
+Foucher, A., Le Gall, M., Salvador-Blanes, S., Evrard, O., Cerdan, O., Laceby, J. P., Vandromme, R., Lefèvre, I., **Manière, L.**, Grangeon, T., Bakyono, J.P., Desmet, M. (2017). Accroissement de la contribution des sources d’érosion aux rivières et plans d’eau (1950–2010): le cas du Louroux (Indre–et–Loire, France), 11–18, DOI : [https://doi.org/10.1051/lhb/2017051 ](https://doi.org/10.1051/lhb/2017051)
+
+### Publication de jeux de données (3)
+
+Dunesme, S., **Manière, L.**, Rousson, C. (2024). Database of Metrics on River Corridors in France at the Regional Scale (v1.0) [Data set]. Recherche Data Gouv. [https://doi.org/10.57745/V7D5RZ](https://doi.org/10.57745/V7D5RZ)
+
+Redon, B., **Manière, L.** (2024). Replication data for : The Towers on the Roman Coptos-Myos Hormos Road in Egypt (v1.0) [Data set]. Recherche Data Gouv. [https://doi.org/10.57745/QJHGM7](https://doi.org/10.57745/QJHGM7)
+
+**Manière, L.**, Crépy, M., & Redon, B. (2020). Least cost network data for ancient camel transportation in the Eastern desert of Egypt - Desert Networks HiSoMA CNRS (v2.0) [Data set]. Zenodo. [https://doi.org/10.5281/zenodo.4291876](https://doi.org/10.5281/zenodo.4291876)
 
 ### Congrès internationaux (10)
 
-Crépy, M., **Manière, L.** and Redon, B. forthcoming. Roads in the sand: Using data from modern travelers to reconstruct the ancient road networks of Egypt’s Eastern Desert (2019). Archaeologies of Roads, Florence Italy. **Oral presentation, speaker**.
+Crépy, M., **Manière, L.** and Redon, B. (2019). Roads in the sand: Using data from modern travelers to reconstruct the ancient road networks of Egypt’s Eastern Desert. Archaeologies of Roads, Florence (Italy). **Oral presentation, speaker**.
 
 **Manière, L.**, Verreth, H. (2019). Desert Networks and Trismegistos. Combining archaeological and historical sources from the Egyptian Eastern desert in a spatial online environment. Project (KU Leuven), ERC Desert Networks. Red Sea conference IX, Networked Spaces, Lyon (France). **Oral presentation, speaker**.
 
