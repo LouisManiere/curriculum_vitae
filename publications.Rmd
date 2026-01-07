@@ -14,9 +14,11 @@ fontsize: 10pt
 knitr::opts_chunk$set(echo = TRUE)
 ```
 
-### Publications scientifiques (avec comité de lecture) (11)
+### Publications scientifiques (avec comité de lecture) (12)
 
-Redon, B., **Manière, L.** Forthcoming. The Towers on the Roman Coptos-Myos Hormos Road in Egypt: Communication Signals or Surveillance Towers? The Journal of Egyptian Archaeology.
+de Soto P., Pažout A., Brughmans T., Vahlstrup PB., Auir Á., Bongers T., Christoffersen JEB., Crépy M., Johansen MH., Lewis J., **Manière L.**, Massa MR., Møller LMH., Redon B., Renda G., Şahin H., Sobotková A., Spatzek AL., Verhagen P., Weissova B. (2025). Itiner-e: A high-resolution dataset of roads of the Roman Empire. Sci Data 12, 1731. [https://doi.org/10.1038/s41597-025-06140-z](https://doi.org/10.1038/s41597-025-06140-z)
+
+Redon, B., **Manière, L.** (2025). The Towers on the Roman Coptos-Myos Hormos Road in Egypt: Communication Signals or Surveillance Towers? The Journal of Egyptian Archaeology. DOI : [https://doi.org/10.1177/03075133251375477](https://doi.org/10.1177/03075133251375477)
 
 Crépy, M., **Manière, L.** and Redon, B. (2023). Roads in the sand: Using data from modern travelers to reconstruct the ancient road networks of Egypt’s Eastern Desert. In: Kulayci, T (ed.). Archaeologies of Roads. Grand Forks: Digital Press at the University of North Dakota.
 
@@ -40,7 +42,13 @@ Foucher, A., Le Gall, M., Salvador-Blanes, S., Evrard, O., Cerdan, O., Laceby, J
 
 \newpage
 
-### Publication de jeux de données (3)
+### Publication de jeux de données (6)
+
+**Manière, L.**, Grosbois, C., Dhivert, E., Mondamert, L., Labanowski, J., Meybeck, M. (dataset in review). Spatial and temporal variations of major and trace elements in sediments of the Loire River basin (France, 1850-2022) [dataset bundled publication]. PANGAEA, [https://doi.pangaea.de/10.1594/PANGAEA.986591](https://doi.pangaea.de/10.1594/PANGAEA.986591)
+
+de Soto, P., Pažout, A., Brughmans, T., Vahlstrup, P., Auir, A., Bongers, T., Christoffersen, J., Crépy, M., Johansen, M. H., Lewis, J., **Manière, L.**, Massa, M., Møller, L. M. H., Redon, B., Renda, G., Şahin, H., Sobotkova, A., Spatzek, A. L., Verhagen, P., & Weissova, B. (2025). A High-Resolution Dataset of Roads of the Roman Empire: Itiner-e static version 2024 (1.3) [Data set]. Zenodo. [https://doi.org/10.5281/zenodo.17122148](https://doi.org/10.5281/zenodo.17122148)
+
+Redon, B., **Manière, L.**, (2024). Replication data for : The Towers on the Roman Coptos-Myos Hormos Road in Egypt, Recherche Data Gouv. [https://doi.org/10.57745/QJHGM7]( https://doi.org/10.57745/QJHGM7)
 
 Dunesme, S., **Manière, L.**, Rousson, C. (2024). Database of Metrics on River Corridors in France at the Regional Scale (v1.0) [Data set]. Recherche Data Gouv. [https://doi.org/10.57745/V7D5RZ](https://doi.org/10.57745/V7D5RZ)
 
