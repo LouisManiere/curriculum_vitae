@@ -5,7 +5,7 @@ date: ""
 output: 
   pdf_document:
     latex_engine: xelatex
-mainfont: Open Sans
+mainfont: "Arial"
 urlcolor: blue
 fontsize: 10pt
 ---
@@ -14,31 +14,33 @@ fontsize: 10pt
 knitr::opts_chunk$set(echo = TRUE)
 ```
 
-### Publications scientifiques (avec comité de lecture) (12)
+### Publications scientifiques (avec comité de lecture) (13)
 
-de Soto P., Pažout A., Brughmans T., Vahlstrup PB., Auir Á., Bongers T., Christoffersen JEB., Crépy M., Johansen MH., Lewis J., **Manière L.**, Massa MR., Møller LMH., Redon B., Renda G., Şahin H., Sobotková A., Spatzek AL., Verhagen P., Weissova B. (2025). Itiner-e: A high-resolution dataset of roads of the Roman Empire. Sci Data 12, 1731. [https://doi.org/10.1038/s41597-025-06140-z](https://doi.org/10.1038/s41597-025-06140-z)
+**Manière, L.**, Grosbois, C., Dhivert, E., Mondamert, L., Labanowski, J., Desmet, M., Moatar, F., Meybeck, M. (2026). A dataset of major and trace element composition in sediments of the Loire river basin (France), records covering 1778-2022. Data in Brief, 68, 113162.  [https://doi.org/10.1016/j.dib.2026.113162](https://doi.org/10.1016/j.dib.2026.113162)
 
-Redon, B., **Manière, L.** (2025). The Towers on the Roman Coptos-Myos Hormos Road in Egypt: Communication Signals or Surveillance Towers? The Journal of Egyptian Archaeology. DOI : [https://doi.org/10.1177/03075133251375477](https://doi.org/10.1177/03075133251375477)
+de Soto P., Pažout A., Brughmans T., Vahlstrup PB., Auir Á., Bongers T., Christoffersen JEB., Crépy M., Johansen MH., Lewis J., **Manière L.**, Massa MR., Møller LMH., Redon B., Renda G., Şahin H., Sobotková A., Spatzek AL., Verhagen P., Weissova B. (2025). Itiner-e: A high-resolution dataset of roads of the Roman Empire. Sci Data 12, 1731.  [https://doi.org/10.1038/s41597-025-06140-z](https://doi.org/10.1038/s41597-025-06140-z)
+
+Redon, B., **Manière, L.** (2025). The Towers on the Roman Coptos-Myos Hormos Road in Egypt: Communication Signals or Surveillance Towers? The Journal of Egyptian Archaeology.  [https://doi.org/10.1177/03075133251375477](https://doi.org/10.1177/03075133251375477)
 
 Crépy, M., **Manière, L.** and Redon, B. (2023). Roads in the sand: Using data from modern travelers to reconstruct the ancient road networks of Egypt’s Eastern Desert. In: Kulayci, T (ed.). Archaeologies of Roads. Grand Forks: Digital Press at the University of North Dakota.
 
-Crépy M., Faucher T., Redon B., Le Bomin J., **Manière L.**, Marchand J., Rabot A. and Villars N. (2022). Désert oriental (2021). Stathmoi et metalla. Exploiter et traverser le désert oriental à l’époque ptolémaïque. Bulletin archéologique des Écoles françaises à l’étranger. DOI : [https://doi.org/10.4000/baefe.6368](https://doi.org/10.4000/baefe.6368)
+Crépy M., Faucher T., Redon B., Le Bomin J., **Manière L.**, Marchand J., Rabot A. and Villars N. (2022). Désert oriental (2021). Stathmoi et metalla. Exploiter et traverser le désert oriental à l’époque ptolémaïque. Bulletin archéologique des Écoles françaises à l’étranger. [https://doi.org/10.4000/baefe.6368](https://doi.org/10.4000/baefe.6368)
 
-Redon B., Boussac M-F., Ahmed E., Bouchaud C., Crépy M., Dhennin S., El Dorry M-A., François P., Dautais L., Le Bomin J., **Manière L.**, Marchand J., Marchi S., Pagnoux C., Pesenti M., Rabot A., Şenol G., Somaglino C., Vanpeene M. and Villars N. (2021). Taposiris Magna et Plinthine (2020): Deux villes de Maréotide. Bulletin archéologique des Écoles françaises à l’étranger. DOI : [https://doi.org/10.4000/baefe.2825](DOI : https://doi.org/10.4000/baefe.2825)
+Redon B., Boussac M-F., Ahmed E., Bouchaud C., Crépy M., Dhennin S., El Dorry M-A., François P., Dautais L., Le Bomin J., **Manière L.**, Marchand J., Marchi S., Pagnoux C., Pesenti M., Rabot A., Şenol G., Somaglino C., Vanpeene M. and Villars N. (2021). Taposiris Magna et Plinthine (2020): Deux villes de Maréotide. Bulletin archéologique des Écoles françaises à l’étranger. [https://doi.org/10.4000/baefe.2825](DOI : https://doi.org/10.4000/baefe.2825)
 
-**Manière, L.**, Crépy, M. and Redon, B. (2021). Building a Model to Reconstruct the Hellenistic and Roman Road Networks of the Eastern Desert of Egypt, a Semi-Empirical Approach Based on Modern Travelers’ Itineraries. Journal of Computer Applications in Archaeology, 4(1), pp.20–46. DOI: [http://doi.org/10.5334/jcaa.67](http://doi.org/10.5334/jcaa.67)
+**Manière, L.**, Crépy, M. and Redon, B. (2021). Building a Model to Reconstruct the Hellenistic and Roman Road Networks of the Eastern Desert of Egypt, a Semi-Empirical Approach Based on Modern Travelers’ Itineraries. Journal of Computer Applications in Archaeology, 4(1), pp.20–46. [http://doi.org/10.5334/jcaa.67](http://doi.org/10.5334/jcaa.67)
 
-**Manière, L.**, Crépy, M. and Redon, B. (2020). Geospatial Data from the “Building a Model to Reconstruct the Hellenistic and Roman Road Networks of the Eastern Desert of Egypt, a Semi-Empirical Approach Based on Modern Travelers’ Itineraries” Paper, Journal of Open Archaeology Data, 8: 7. DOI: [https://doi.org/10.5334/joad.71](https://doi.org/10.5334/joad.71)
+**Manière, L.**, Crépy, M. and Redon, B. (2020). Geospatial Data from the “Building a Model to Reconstruct the Hellenistic and Roman Road Networks of the Eastern Desert of Egypt, a Semi-Empirical Approach Based on Modern Travelers’ Itineraries” Paper, Journal of Open Archaeology Data, 8: 7. [https://doi.org/10.5334/joad.71](https://doi.org/10.5334/joad.71)
 
-Grangeon, T., Cerdan, O., Landemaine, V., Vandromme, R., Desprats, J., Salvador-Blanes, S., Vanhooydonck, P., Gaillot, A., **Manière, L.**, Pene-Galland, I., Evrard, O., Foucher, A., Ledieu, L., Simonneau, A., Ouvry, J., and Ting Pak, L. (2020). Les observatoires du ruissellement : comprendre les processus pour améliorer les modélisations, La Houille Blanche, 106:6, 7-16, DOI: [https://doi.org/10.1051/lhb/2020056](https://doi.org/10.1051/lhb/2020056)
+Grangeon, T., Cerdan, O., Landemaine, V., Vandromme, R., Desprats, J., Salvador-Blanes, S., Vanhooydonck, P., Gaillot, A., **Manière, L.**, Pene-Galland, I., Evrard, O., Foucher, A., Ledieu, L., Simonneau, A., Ouvry, J., and Ting Pak, L. (2020). Les observatoires du ruissellement : comprendre les processus pour améliorer les modélisations, La Houille Blanche, 106:6, 7-16. [https://doi.org/10.1051/lhb/2020056](https://doi.org/10.1051/lhb/2020056)
 
-Grangeon, T., **Manière, L.**, Foucher, A., Vandromme, R., Cerdan, O., Evrard, O., Pene-Galland, I.,  Salvador-Blanes, S. (2017). Hydro-sedimentary dynamics of a drained agricultural headwater catchment: a nested monitoring approach. Vadose Zone J. 16(12), DOI : [https://doi.org/10.2136/vzj2017.05.0113](https://doi.org/10.2136/vzj2017.05.0113)
+Grangeon, T., **Manière, L.**, Foucher, A., Vandromme, R., Cerdan, O., Evrard, O., Pene-Galland, I.,  Salvador-Blanes, S. (2017). Hydro-sedimentary dynamics of a drained agricultural headwater catchment: a nested monitoring approach. Vadose Zone J. 16(12), [https://doi.org/10.2136/vzj2017.05.0113](https://doi.org/10.2136/vzj2017.05.0113)
 
-Le Gall, M., Evrard, O., Foucher, A., Laceby, J. P., Salvador-Blanes, S., **Manière, L.**, Lefèvre, I., Cerdan, O., Ayrault, S. (2017). Investigating the temporal dynamics of suspended sediment during flood events with 7Be and 210Pbxs measurements in a drained lowland catchment. Scientific Reports, 7(March), 42099, DOI : [https://doi.org/10.1038/srep42099](https://doi.org/10.1038/srep42099)
+Le Gall, M., Evrard, O., Foucher, A., Laceby, J. P., Salvador-Blanes, S., **Manière, L.**, Lefèvre, I., Cerdan, O., Ayrault, S. (2017). Investigating the temporal dynamics of suspended sediment during flood events with 7Be and 210Pbxs measurements in a drained lowland catchment. Scientific Reports, 7(March), 42099.  [https://doi.org/10.1038/srep42099](https://doi.org/10.1038/srep42099)
 
-Le Gall, M., Evrard, O., Thil, F., Foucher, A., Laceby, J. P., **Manière, L.**, Salvador-Blanes, S., Ayrault, S. (2016). Examining suspended sediment sources and dynamics during floods in a drained catchment using stable strontium isotopes and fallout radionuclides. Chemical Geology, DOI : [https://doi.org/10.1016/j.chemgeo.2016.12.007](https://doi.org/10.1016/j.chemgeo.2016.12.007)
+Le Gall, M., Evrard, O., Thil, F., Foucher, A., Laceby, J. P., **Manière, L.**, Salvador-Blanes, S., Ayrault, S. (2016). Examining suspended sediment sources and dynamics during floods in a drained catchment using stable strontium isotopes and fallout radionuclides. Chemical Geology, [https://doi.org/10.1016/j.chemgeo.2016.12.007](https://doi.org/10.1016/j.chemgeo.2016.12.007)
 
-Foucher, A., Le Gall, M., Salvador-Blanes, S., Evrard, O., Cerdan, O., Laceby, J. P., Vandromme, R., Lefèvre, I., **Manière, L.**, Grangeon, T., Bakyono, J.P., Desmet, M. (2017). Accroissement de la contribution des sources d’érosion aux rivières et plans d’eau (1950–2010): le cas du Louroux (Indre–et–Loire, France), 11–18, DOI : [https://doi.org/10.1051/lhb/2017051 ](https://doi.org/10.1051/lhb/2017051)
+Foucher, A., Le Gall, M., Salvador-Blanes, S., Evrard, O., Cerdan, O., Laceby, J. P., Vandromme, R., Lefèvre, I., **Manière, L.**, Grangeon, T., Bakyono, J.P., Desmet, M. (2017). Accroissement de la contribution des sources d’érosion aux rivières et plans d’eau (1950–2010): le cas du Louroux (Indre–et–Loire, France), 11–18. [https://doi.org/10.1051/lhb/2017051 ](https://doi.org/10.1051/lhb/2017051)
 
 \newpage
 

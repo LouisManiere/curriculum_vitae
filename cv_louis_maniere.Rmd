@@ -112,11 +112,11 @@ Louis Manière {#title}
 ### Ingénieur en gestion de données et hydrologie
 
 <p style="margin-top:0.1in; margin-bottom:0in">
-9 ans d'expérience dans l'acquisition, la gestion et le traitement des données avec une spécialisation en hydrologie et environnement.
+10 ans d'expérience dans l'acquisition, la gestion et le traitement des données avec une spécialisation en hydrologie et environnement.
 <br />Anglais courant
 </p>
 
-<!-- 6 ans d'expérience dans la gestion et le traitement des données de recherche,  -->
+<!-- 8 ans d'expérience dans la gestion et le traitement des données de recherche,  -->
 <!-- <br />je souhaite développer mon expertise dans leur valorisation​ -->
 
 Expériences professionnelles {data-icon=suitcase}
@@ -221,13 +221,21 @@ Mesures de terrain sur la morphologie et le transport sédimentaire de 9 plans d
 Enseignement {data-icon=pencil data-concise=true}
 --------------------------------------------------------------------------------
 
+### Programmation
+
+Licence 3 Sciences de la Terre, Université de Tours
+
+Tours
+
+2025 - 2027
+
 ### Statistiques et data mining
 
 Master 1 Hydrosystèmes et Bassins Versants, Université de Tours
 
 Tours
 
-2024
+2024 - 2027
 
 ### Métrologie et analyse de données de l'Observatoire du Louroux (terrain et laboratoire)
 
